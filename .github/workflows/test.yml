@@ -2,7 +2,8 @@ name: test
 
 on:
   push:
-    branches: * 
+    branches: 
+      - ddd
   pull_request:
     branches: [ master ]
 
